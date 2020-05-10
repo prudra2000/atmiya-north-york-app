@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "425768559711",
+    "firebase_url": "https://atmiya-north-york-sabha.firebaseio.com",
+    "project_id": "atmiya-north-york-sabha",
+    "storage_bucket": "atmiya-north-york-sabha.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:425768559711:android:974649210a853e61aaa7ea",
+        "android_client_info": {
+          "package_name": "com.example.atmiya_ny_sabha_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "425768559711-0ok2hp183v5hltentuu33ih1ta2t0ppb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.atmiya_ny_sabha_app",
+            "certificate_hash": "81d3b280318424b0e7eedd69824ce1b0b599c330"
+          }
+        },
+        {
+          "client_id": "425768559711-g6m3v5l7okk72lb4eppns0hnodbm3af4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC3QbGYbMQxnQGamzdLJY1vJ0rp1Uqok9I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "425768559711-g6m3v5l7okk72lb4eppns0hnodbm3af4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
