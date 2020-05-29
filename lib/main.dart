@@ -8,6 +8,7 @@ import 'RideScreen.dart';
 import 'VidScreen.dart';
 import 'RecScreen.dart';
 import 'PhotosScreen.dart';
+import 'RecPage/listSabha.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 
 
@@ -75,7 +76,7 @@ class HomeScreen extends StatelessWidget {
                         iconSize: 150,
                         onPressed: () {
                           Route route = new MaterialPageRoute(
-                              builder: (context) => VidScreen());
+                              builder: (context) => JsonPage());
                           Navigator.push(context, route);
                         }),
                     Text(
