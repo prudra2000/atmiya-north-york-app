@@ -17,7 +17,12 @@ dependencies:
   cloud_firestore: ^0.13.5
   audioplayer: 0.8.1
   audioplayer_web: 0.7.1
-  
+  cached_network_image: 2.2.0
+  url_launcher: 5.4.10
+  webfeed: 0.4.2
+  http: 0.12.1
+
+
 
 dev_dependencies:
   flutter_test:

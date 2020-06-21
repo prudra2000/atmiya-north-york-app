@@ -14,7 +14,8 @@ class _PhotosScreen extends State<PhotosScreen>{
         title: Text('Photos'),
         backgroundColor: Color.fromRGBO(247, 119, 32, 1),
       ),
-      url: "https://www.rudrapatel.ca/copy-of-anya-vid",
+      //url: "https://www.rudrapatel.ca/copy-of-anya-vid",
+      url:"https://ydsnorthyorkca.wordpress.com/photos/",
       withZoom: false,
       );
   }

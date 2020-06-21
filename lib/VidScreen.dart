@@ -22,7 +22,8 @@ class _VidScreen extends State<VidScreen>{
         title: Text('Videos'),
         backgroundColor: Color.fromRGBO(247, 119, 32, 1),
       ),
-      url: "https://www.rudrapatel.ca/copy-of-anya-rec",
+      //url: "https://www.rudrapatel.ca/copy-of-anya-rec",
+      url: "https://ydsnorthyorkca.wordpress.com/videos/",
       withZoom: false,
       );
   }

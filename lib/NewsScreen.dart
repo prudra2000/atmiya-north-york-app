@@ -15,7 +15,7 @@ class _NewsScreen extends State<NewsScreen>{
         title: Text('News Feed'),
         backgroundColor: Color.fromRGBO(247, 119, 32, 1),
       ),
-      url: "https://www.rudrapatel.ca/blog",
+      url: "https://ydsnorthyorkca.wordpress.com/new/",
       withZoom: false,
       );
   }

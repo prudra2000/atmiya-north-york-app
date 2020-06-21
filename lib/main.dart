@@ -1,4 +1,4 @@
-import 'package:audioplayer/audioplayer.dart';
+
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
@@ -8,8 +8,8 @@ import 'RideScreen.dart';
 import 'VidScreen.dart';
 import 'RecScreen.dart';
 import 'PhotosScreen.dart';
-import 'RecPage/listSabha.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
+
 
 
 void main() => runApp(MyApp());
@@ -26,9 +26,8 @@ class MyApp extends StatelessWidget {
 
 class HomeScreen extends StatelessWidget {
   @override
-  AudioPlayer audioPlugin = AudioPlayer();
-  String url =
-      'gs://atmiya-north-york-sabha.appspot.com/Rec/Sabha_Feb_13_2020_Vakta-Kalpeshbhai.mp3';
+  
+  
   Widget build(BuildContext context) {
     return new Scaffold(
       backgroundColor: Color.fromRGBO(255, 241, 203, 1),
@@ -76,7 +75,7 @@ class HomeScreen extends StatelessWidget {
                         iconSize: 150,
                         onPressed: () {
                           Route route = new MaterialPageRoute(
-                              builder: (context) => JsonPage());
+                              builder: (context) => VidScreen());
                           Navigator.push(context, route);
                         }),
                     Text(
